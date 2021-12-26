@@ -53,13 +53,14 @@ Flux diagram described
 
 > However, Redux has nothing to do with React JS, you can write applications that use Redux in plain JavaScript and direct DOM updates. Redux can also be used with any Front End or Backend framework like AngularJS, EmberJS, VueJS etc.
 
-The three core principles of Redux
-Single Source of Truth:
-State is READ only
-Changes in Redux are made with pure functions:
-These are true, from a certain point of view. They
+### The three core principles of Redux
+* Single Source of Truth:
+* State is READ only
+* Changes in Redux are made with pure functions:
 
-These principles are used to explain about how Redux should be used.
+* NOTE: These are true, from a certain point of view *
+
+### Following principles are used to explain about how Redux should be used.
 
 ### 1. Single Source of Truth:
 The store in redux is known as the single source of truth. This is because there is only one store in redux and it holds all the application state. Any state that need to be read in redux can only be done from the store.
